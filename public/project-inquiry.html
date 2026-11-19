@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="robots" content="noindex" />
+    <title>Project inquiry form registration</title>
+  </head>
+  <body>
+    <form
+      name="project-inquiry"
+      method="POST"
+      data-netlify="true"
+      netlify-honeypot="bot-field"
+      hidden
+    >
+      <input type="hidden" name="form-name" value="project-inquiry" />
+      <input type="hidden" name="subject" value="New project inquiry — EMA Architecture Studio" />
+      <input name="name" type="text" />
+      <input name="email" type="email" />
+      <input name="phone" type="tel" />
+      <input name="location" type="text" />
+      <input name="project-type" type="radio" value="New private home" />
+      <select name="stage">
+        <option value="">Select</option>
+      </select>
+      <textarea name="message"></textarea>
+      <input name="bot-field" />
+    </form>
+  </body>
+</html>
